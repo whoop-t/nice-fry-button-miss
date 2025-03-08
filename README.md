@@ -52,7 +52,10 @@ Modify the behavior of this shield by adjusting these options in your personal c
 | `CONFIG_NICE_RIGHT_ANIMATION_MS`        | int  | Alternatively, you can slow down the animation. A high value, such as 96000, slows the animation considerably, showing the next frame every couple of seconds. The animation consists of 16 frames, and the default value of 960 milliseconds. | 960     |
 
 ## Acknowledgements
-### Base Repo
+### Base Repo (for anyone to get started with their own)
+https://github.com/whoop-t/nice-shield-base
+
+## Inspiration
 https://github.com/M165437/nice-view-gem
 
 ### Making the art
