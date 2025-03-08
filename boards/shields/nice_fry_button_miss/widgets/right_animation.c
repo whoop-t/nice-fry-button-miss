@@ -3,9 +3,10 @@
 #include "right_animation.h"
 
 LV_IMG_DECLARE(right_image);
+LV_IMG_DECLARE(right_image_2);
 
 const lv_img_dsc_t *anim_imgs[] = {
-    &right_image,
+    &right_image, &right_image_2,
 };
 
 void draw_right_animation(lv_obj_t *canvas) {
