@@ -1,6 +1,6 @@
 # nice-fry-button-miss
 
-![Preview](https://github.com/whoop-t/nice-adventure-time/blob/main/.github/assets/frybuttonmiss.gif?raw=true)
+![Preview](https://github.com/whoop-t/nice-fry-button-miss/blob/main/.github/assets/frybuttonmiss.gif?raw=true)
 
 ## Quick setup
 
