@@ -42,6 +42,15 @@ CONFIG_ZMK_DISPLAY=y
 CONFIG_ZMK_DISPLAY_STATUS_SCREEN_CUSTOM=y
 ```
 
+## Configuration
+
+Modify the behavior of this shield by adjusting these options in your personal configuration files. For a more detailed explanation, refer to [Configuration in the ZMK documentation](https://zmk.dev/docs/config).
+
+| Option                                     | Type | Description                                                                                                                                                                                                                                                       | Default |
+| ------------------------------------------ | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| `CONFIG_NICE_RIGHT_ANIMATION`           | bool | If you find the animation distracting (or want to save on battery usage), you can turn it off by setting this option to `n`. This will use the last frame where fry missing the button.                                           | y       |
+| `CONFIG_NICE_RIGHT_ANIMATION_MS`        | int  | Alternatively, you can slow down the animation. A high value, such as 96000, slows the animation considerably, showing the next frame every couple of seconds. The animation consists of 16 frames, and the default value of 960 milliseconds. | 960     |
+
 ## Acknowledgements
 ### Base Repo
 https://github.com/M165437/nice-view-gem
